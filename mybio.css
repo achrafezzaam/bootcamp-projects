@@ -21,6 +21,12 @@ img {
     margin: 0 auto 20px;
 }
 
+img.hovered {
+    box-shadow:  0 0 10px #6054E7;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 .hobby-list {
     list-style-type: disc;
     padding-left: 20px;
